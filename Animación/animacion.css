@@ -1,0 +1,91 @@
+body{
+    height: 200vh;
+    width: 100vw;
+}
+
+.animated-item{
+    background-color: red;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    animation: box 4s linear infinite;
+}
+
+.animated-item{
+    animation: caja-animada 18s infinite;
+}
+
+@keyframes caja-animada{
+    
+    0%{
+        left: 0px;
+        top: 0px;
+        border-radius: 0%;
+    }
+    10%{
+        left: 500px;
+        top: 500px;
+        border-radius: 50%;
+        background-color: purple;
+        
+    }
+    20%{
+       left: 1300px;
+       top: 400px;
+       border-radius: 0%;
+       background-color: green;
+    }
+    30%{
+        right: 1500px;
+        top: 1px;
+        border-radius: 60%;
+        background-color: gray;
+    }
+    40%{
+        right: 2000px;
+        top: 500px;
+        border-radius: 0%;
+        background-color: rgb(19, 6, 6);
+    }
+    50%{
+        left: 600px;
+        top: 1px;
+        border-radius: 10%;
+        background-color: rgb(86, 61, 174);
+    }
+
+    60%{
+         right: 500px;
+         top: 500px;   
+         border-radius: 0%;
+        background-color: rgb(138, 225, 7);
+    }
+
+    70%{
+        left: 300px;
+        top: 1px;
+        border-radius: 90%;
+        background-color: rgb(221, 217, 6);
+    }
+
+    80%{
+        left: 100px;
+        top: 500px;
+        border-radius: 0%;
+        background-color: rgb(241, 13, 207);
+    }
+
+    90%{
+        right: 500px;
+        top: 1px;
+        border-radius: 60%;
+        background-color: rgb(20, 239, 228);
+    }
+
+    100%{
+        left: 0px;
+        top: 0px;
+        border-radius: 0%;
+        
+    }
+}

@@ -1,0 +1,32 @@
+header{
+
+    background-color: rgb(238, 238, 13);
+    height: 200px;
+}
+
+.logo{
+    padding-left: 10%;
+    
+    
+}
+
+.Menu{
+    display: inline-block;
+  width: 400px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 15px;
+  padding-right: 30%;
+  padding-left: 40%;
+  
+}
+
+footer{
+    padding-left: 40%;
+    height: 500px;
+}
+
+.boton{
+
+    padding-top: -10px;
+}
