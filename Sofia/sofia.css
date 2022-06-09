@@ -67,4 +67,55 @@ main .cuadro{
     
 }
 
+footer{
+    width: 100%;
+    padding: 50px;
+}
+
+.flexcont{
+    display: flex;
+    justify-content: space-around;
+    color: #4A25AA;
+}
+
+.imagen{
+    height: 40px;
+    width: 60px;
+}
+.cajas{
+    list-style: none;
+}
+
+.cajas h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #4a25aa;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.uno{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    padding: 50px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+ul{
+    text-decoration: none;
+}
+
+.links{
+    display: block;
+    margin-bottom: 10px;
+    color: #323c61;
+    font-weight: 400;
+}
+
+
 
