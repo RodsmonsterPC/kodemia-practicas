@@ -7,8 +7,10 @@
 header{
     background-color: white;
     height: 68px;
-    position: -webkit-sticky;
     position: sticky;
+    top: 0px;
+    opacity: .9;
+    
 }
 
 header nav{
