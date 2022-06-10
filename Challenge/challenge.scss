@@ -32,7 +32,7 @@ header nav{
 .logo{
     position: relative;
     left: 50px;
-    top: 30px;
+    top: 32px;
     
 }
 .menu{
@@ -49,6 +49,7 @@ header nav{
     color: black;
     font-family: 'Raleway', sans-serif;
     display: none;
+    top: 32px;
 
     
 
@@ -63,8 +64,8 @@ header nav{
     }
     .carrito{
         position: relative;
-        right: 10px;
-        top: 10px;
+        right: -6px;
+        top: 8px;
     }
 
     .marca{
@@ -74,8 +75,8 @@ header nav{
         font-size: .75rem;
         display: flex;
         justify-content: center;
-        top: -8px;
-        left: 19px;
+        top: -3px;
+        left: 35px;
         border-radius: .5rem;
         background-color: $secondary-color;
 
@@ -83,6 +84,98 @@ header nav{
 
 }
 
+.cuerpo{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 200px;
+    width: 960px;
+    height: 751px;
+    top: 1200px;
+    background: linear-gradient(180deg, rgba(245, 245, 245, 0) 0%, #F5F5F5 51.56%, rgba(245, 245, 245, 0) 100%);
+}
+.tipo_piano{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05rem;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    font-style: normal;
+    width: 470px;
+    height: 62px;
+    top: 1100px;
+    left: 246px;
+
+
+}
+.pianos{
+    display: flex;
+    justify-content: space-between; /*caja de pianos general*/
+    background: #FFFFFF;
+/* shadow-cards */
+
+    box-shadow: 0px 28px 64px 12px rgba(0, 0, 0, 0.12);
+    border-radius: 8px;
+    width: 250px;
+    height: 239px;
+    top: 2083px;
+    left: 49px;
+    border-radius: 8px;
+}
+.Descrip1{
+    position: relative;
+   background-color: aqua;
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   
+}
+.Monto{
+    border-radius: 8px;
+    border-style: solid;
+    background-color: #FFFFFF;
+    padding-right: 20px;
+    width: 161px;
+    height: 36px;
+    top: 2270px;
+    left: 65px;
+
+    
+}
+.pianos1{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+}
+.carritob{
+    background-color: #000000;
+    display: flex;
+    border-radius: 4px;
+
+}
+.precioC{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+
+}
+.vermas{
+    position: relative;
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 129px;
+    height: 32px;
+    top: 200px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+}
 
 
 
