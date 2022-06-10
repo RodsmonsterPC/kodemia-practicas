@@ -1,0 +1,107 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  height: 68px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+header nav {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  position: relative;
+  left: 50px;
+  top: 30px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item {
+  position: relative;
+  right: 40px;
+  text-decoration: none;
+  margin: 10px;
+  padding: .5rem 1rem;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  display: none;
+}
+
+.item.btn {
+  background-color: black;
+  border-radius: .5rem;
+  color: white;
+}
+
+.item.contenedor-carrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item .carrito {
+  position: relative;
+  right: 10px;
+  top: 10px;
+}
+
+.item .marca {
+  position: absolute;
+  padding: .25rem;
+  min-width: 30px;
+  font-size: .75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: -8px;
+  left: 19px;
+  border-radius: .5rem;
+  background-color: #FFBA60;
+}
+
+@media only screen and (min-width: 768px) {
+  .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .carrito {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+/*# sourceMappingURL=challenge.css.map */

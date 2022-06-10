@@ -1,0 +1,107 @@
+@import "variables";
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: white;
+    height: 68px;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+header nav{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    
+
+    
+    
+}
+
+.logo{
+    position: relative;
+    left: 50px;
+    top: 30px;
+    
+}
+.menu{
+    display: flex;
+
+}
+
+.item{
+    position: relative;
+    right: 40px;
+    text-decoration: none;
+    margin: 10px;
+    padding: .5rem 1rem;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    display: none;
+
+    
+
+    &.btn{
+        background-color: black;
+        border-radius: .5rem;
+        color: white;
+        
+    }
+    &.contenedor-carrito{
+        display: flex;
+    }
+    .carrito{
+        position: relative;
+        right: 10px;
+        top: 10px;
+    }
+
+    .marca{
+        position: absolute;
+        padding: .25rem;
+        min-width: 30px;
+        font-size: .75rem;
+        display: flex;
+        justify-content: center;
+        top: -8px;
+        left: 19px;
+        border-radius: .5rem;
+        background-color: $secondary-color;
+
+    }
+
+}
+
+
+
+
+@media only screen and (min-width:768px){
+
+    .item{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .carrito{
+        display: flex;
+    }
+    
+
+}
+
+
+
+
+
