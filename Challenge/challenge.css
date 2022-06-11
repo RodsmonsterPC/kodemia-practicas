@@ -7,7 +7,7 @@
 
 header {
   background-color: white;
-  height: 68px;
+  height: 120px;
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -69,7 +69,7 @@ header nav {
 .item .carrito {
   position: relative;
   right: -6px;
-  top: 8px;
+  top: 1px;
 }
 
 .item .marca {
@@ -109,6 +109,10 @@ header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -124,8 +128,6 @@ header nav {
   font-style: normal;
   width: 470px;
   height: 62px;
-  top: 1100px;
-  left: 246px;
 }
 
 .pianos {
@@ -150,7 +152,6 @@ header nav {
 
 .Descrip1 {
   position: relative;
-  background-color: aqua;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,6 +211,237 @@ header nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.seccion-texto {
+  background-image: url("/fondo.png");
+  background-color: #cccccc;
+  height: 650px;
+  background-size: cover;
+  background-position: bottom;
+  padding: 30px 0 0 40px;
+  color: #cccccc;
+}
+
+.seccion-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+h1 {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.columna {
+  width: 50%;
+}
+
+button {
+  background-color: #000000;
+  color: #cccccc;
+  padding: 10px 50px;
+  border-radius: 40px;
+  border: solid 1px #000000;
+}
+
+.conocenos {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("pics/pianista.png");
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+footer {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: linear-gradient(177.96deg, rgba(255, 255, 255, 0.43) 1.72%, #6F6F6F 107.44%);
+}
+
+.copy-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: row;
+      -ms-flex-pack: row;
+          justify-content: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.copy {
+  font-size: 16px;
+  opacity: 0.7;
+  font-weight: 50;
+  padding: 10px;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 40%;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer-container {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  padding: 3rem 6rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-content-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .logo {
+  Width: 112px;
+  Height: 111px;
+}
+
+.footer-content-container .social-media {
+  width: 200px;
+  text-decoration: none;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  color: black;
+  margin: 10px;
+}
+
+.links {
+  font-size: 16px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+.social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    background-color: #6F6F6F;
+  }
+  .logo {
+    position: absolute;
+    top: 1px;
+  }
+  .social-media {
+    position: absolute;
+    top: 50px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
