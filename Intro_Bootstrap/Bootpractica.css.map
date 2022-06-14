@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,GAAG,CAAA;EACC,MAAM,EAAE,IAAI;CACf;;AAED,AAAA,IAAI,CAAA;EACA,UAAU,EAAE,KAAK;CACpB;;AAED,AAAA,MAAM,GAAG,GAAG,CAAA;EACR,MAAM,EAAE,KAAK;CAChB",
+    "sources": [
+        "Bootpractica.scss"
+    ],
+    "names": [],
+    "file": "Bootpractica.css"
+}

@@ -89,6 +89,23 @@ header nav {
   background-color: #FFBA60;
 }
 
+@media only screen and (min-width: 768px) {
+  .item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .carrito {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .cuerpo {
   display: block;
   -webkit-box-pack: center;
@@ -223,7 +240,7 @@ header nav {
   color: #cccccc;
 }
 
-.seccion-flex {
+main .seccion-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,23 +458,6 @@ footer .logo {
   .social-media {
     position: absolute;
     top: 50px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .item {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
-  .carrito {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 /*# sourceMappingURL=challenge.css.map */

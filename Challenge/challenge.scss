@@ -85,6 +85,23 @@ header nav{
 
 }
 
+
+
+@media only screen and (min-width:768px){
+
+    .item{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .carrito{
+        display: flex;
+    }
+    
+
+}
+
 .cuerpo{
     display: block;
     justify-content: center;
@@ -187,7 +204,7 @@ header nav{
     padding: 30px 0 0 40px;
     color: #cccccc;
   }
-  .seccion-flex{
+  main .seccion-flex{
     display: flex;
     flex-direction: row;
   }
@@ -348,20 +365,7 @@ header nav{
     }
 
 
-@media only screen and (min-width:768px){
 
-    .item{
-        display: flex;
-        flex-direction: row;
-        
-    }
-
-    .carrito{
-        display: flex;
-    }
-    
-
-}
 
 
 
