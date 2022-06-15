@@ -1,0 +1,167 @@
+@import "variables";
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: white;
+    height: 120px;
+    font-family: 'Libre Baskerville', serif;
+    
+
+}
+
+header nav{
+
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    
+
+    
+    
+}
+
+.logo{
+    position: relative;
+    left: 50px;
+    top: 32px;
+    
+}
+.menu{
+    display: flex;
+
+}
+
+.item{
+    position: relative;
+    right: 40px;
+    text-decoration: none;
+    margin: 10px;
+    padding: .5rem 1rem;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    display: none;
+    top: 32px;
+
+    
+
+    &.btn{
+        background-color: black;
+        border-radius: .5rem;
+        color: white;
+        
+    }
+    &.contenedor-carrito{
+        display: flex;
+    }
+    .carrito{
+        position: relative;
+        right: -6px;
+        top: 1px;
+    }
+
+    .marca{
+        position: absolute;
+        padding: .25rem;
+        min-width: 30px;
+        font-size: .75rem;
+        display: flex;
+        justify-content: center;
+        top: -3px;
+        left: 35px;
+        border-radius: .5rem;
+        background-color: $secondary-color;
+
+    }
+
+}
+
+
+
+@media only screen and (min-width:768px){
+
+    .item{
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .carrito{
+        display: flex;
+    }
+    
+
+}
+
+.seccion-texto {
+    background-image: url("/fondo.png");
+    background-color: #cccccc;
+    height: 650px;
+    background-size: cover;
+    background-position: bottom;
+    padding: 30px 0 0 40px;
+    color: #cccccc;
+
+    &.fondo-img{
+        opacity: 60%;
+    }
+}
+
+main .seccion-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: start;
+}
+
+.columna {
+    width: 100%;
+}
+
+button {
+    background-color: #000000;
+    color: #cccccc;
+    padding: 10px 50px;
+    border-radius: 40px;
+    border: solid 1px #000000;
+}
+
+.conocenos {
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+
+

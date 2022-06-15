@@ -45,6 +45,11 @@
   color: #004241;
 }
 
+.container .card-car-container .card-car.luxury .card-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
 .container .card-car-container h2 {
   color: #f2f2f2;
   font-family: 'Big Shoulders Display', cursive;
@@ -55,10 +60,5 @@
   border-radius: 8px;
   text-decoration: none;
   border: 1px solid white;
-}
-
-.container .card-car-container .card-button:hover {
-  background-color: transparent;
-  color: white !important;
 }
 /*# sourceMappingURL=ChallengeBoot.css.map */
