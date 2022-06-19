@@ -8,18 +8,32 @@
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="index.css">
   </head>
   <body>
     <header>
         <nav>
-            <nav class="navbar bg-light fixed-top">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Offcanvas navbar</a>
+            <nav class="navbar bg-light fixed-top border-bottom">
+                <div class="container-fluid  d-flex justify-content-between">
+                    <div class="d-flex ">
+                        <button class="navbar-toggler d-md-none border border-light" type=" button"
+                            data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                            aria-controls="offcanvasNavbar">
+                        </button>
+                        <img class="me-3" src="./images/dev_to_icon_136699.png" alt="">
+                        <div class="input-group align-items-center w-auto">
+                            <input type="text" class="form-control d-none h-75   border-end-0  d-md-flex"
+                                placeholder="Search..." aria-label="Search" aria-describedby="basic-addon1">
+                            <span class="input-group-text bg-light d-flex h-75 border-md-0 " id="basic-addon1">
+                                <img class="" src="./images/icons8-búsqueda-40.svg" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center  me-md-4">
+                        <a class="text-decoration-none text-black d-none d-md-flex me-md-4" href="">Login</a>
+                        <button type="button" class="btn btn-outline-primary">Create
+                            account</button>
+                    </div>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
@@ -29,70 +43,383 @@
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/house_home_real_estate_property_building_architecture_icon_141977.png"
+                                        alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""><a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/62941cardfilebox_109271.png" alt=""><a class="nav-link active"
+                                        aria-current="page" href="#">Reading List</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/62867scroll_109334.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Listings</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/62800studiomicrophone_109354.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Podcasts</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/film_projector_cinema_icon-icons.com_66132.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Videos</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/diagram-38_24479.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Tags</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/Idea-80_icon-icons.com_57314.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">FAQ</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/compras_tienda_bolsas_icon_209800.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Forem Shop</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img src="./images/heart-icon_34407.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Sponsors</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img src="./images/dev_to_icon_130961 (2).png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">About</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt=""> <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img src="./images/french_horn_icon-icons.com_68658.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Contact</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt="">  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item  d-flex align-items-center justify-content-start">
+                                    <img src="./images/read_book_study_icon-icons.com_51077.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Guides</a>
                                 </li>
                                 <br>
                                 <h5>Others</h5>
-                                <li class="nav-item">
-                                    <img src="" alt="">  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/like_icon_129444.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Code of Conduct</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt="">  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/face_nerd_emo_emoticon_emoji_icon_209625.png" alt=""> <a
+                                        class="nav-link active" aria-current="page" href="#">Privacy Policy</a>
                                 </li>
-                                <li class="nav-item">
-                                    <img src="" alt="">  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <li class="nav-item d-flex align-items-center justify-content-start">
+                                    <img src="./images/12123eyes_109574.png" alt=""> <a class="nav-link active"
+                                        aria-current="page" href="#">Terms of use</a>
                                 </li>
                             </ul>
                             </li>
                             </ul>
-                           <div>
-                            <!--<link rel="stylesheet" href="" >-->
-                            <img src="./favicon-32x32.png" alt="" href="#">
-                            <img src="./favicon-32x32.png" alt="" href="#">
-                            <img src="./favicon-32x32.png" alt="" href="#">
-                           </div>
-                        </div>
-                    </div>
+                        </div><!-- END OF OFFCANVAS-BODY -->
+                    </div><!-- END OF OFFCANVAS-START -->
                 </div>
             </nav>
         </nav>
     </header>
 
 
+    <div class="SecondArea">
+        <main class="container">
+            <div class="row">
+                <aside class="bg-transparent col-3 left-aside ">
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/home.png"><span class="ms-2">Home </span>
+                        </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/achive.png"><span class="ms-2">Reading
+                                List </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/listings.png"><span class="ms-2">Listings
+                            </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/podcast.png"><span class="ms-2">Podcasts
+                            </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/videocam.png"><span class="ms-2">Videos
+                            </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/tag.png"><span class="ms-2">Tags </span>
+                        </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/FAQ.png"><span class="ms-2">FAQ </span>
+                        </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/foremShop.png"><span class="ms-2">Forem
+                                Shop </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/sponsors.png"><span class="ms-2">Sponsors
+                            </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/rainbow.png"><span class="ms-2">About
+                            </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/conctact.png"><span class="ms-2">Contact
+                            </span> </a>
+                    </div>
+                    <div class="list-group d-flex">
+                        <a href="#" class="list-group-item"><img src="./images/guides.png"><span class="ms-2">Guides
+                            </span> </a>
+                    </div>
+
+                    <div class="mt-5">
+                        <div class="fw-bold">
+                            Other
+                        </div>
+                        <div class="list-group">
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><img src="./images/codeOfConduct.png"><span
+                                        class="ms-2">Code of Conduct </span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><img src="./images/PrivacyPolicy.png"><span
+                                        class="ms-2">Privacy Policy </span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><img src="./images/TermsOfUse.png"><span
+                                        class="ms-2">Terms of Use </span> </a>
+                            </div>
+                        </div>
+                        <div class="logos d-flex gap-1 mt-5">
+                            <div class="smallIcon tw"></div>
+                            <div class="smallIcon fb"></div>
+                            <div class="smallIcon git"></div>
+                            <div class="smallIcon ig"></div>
+                            <div class="smallIcon dis"></div>
+                        </div>
+
+                        <div class="mt-5 fw-bold">My Tags</div>
+                        <div class="list-group">
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#ubuntu</span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#opensource </span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#aws </span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#machinelearning</span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#linux </span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#cpp </span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#python</span> </a>
+                            </div>
+                            <div class="list-group d-flex">
+                                <a href="#" class="list-group-item"><span class="ms-2">#git </span> </a>
+                            </div>
+
+
+                        </div>
+
+
+
+
+                </aside>
+                <section class="col-6 col-md-6">
+
+                    <div class="card mb-3">
+                        <img src="/images/card_section_1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h2 class="card-title">
+                                People rarely use complicated git commands on the weekend, and I have the data to prove
+                                it.
+                            </h2>
+                            <p class="card-text">#git</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+
+                    <div class="card  mb-3">
+                        <div class="card-header bg-transparent ">Header</div>
+                        <div class="card-body ">
+                            <h2 class="card-title">CodeLand is special, and I'm not just saying that.</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent ">Footer</div>
+                    </div>
+
+                    <div class="card  mb-3">
+                        <div class="card-header bg-transparent ">Header</div>
+                        <div class="card-body ">
+                            <h2 class="card-title">SQL Has Evolved a Lot In Order To Meet New Challenges — But The
+                                Fundamentals Have Remained 🎙</h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent ">Footer</div>
+                    </div>
+
+
+                    <div class="card  mb-3">
+                        <div class="card-header bg-transparent ">Header</div>
+                        <div class="card-body ">
+                            <h2 class="card-title">
+                                Can anyone recommend a little toolbox of Ruby goodies?
+                            </h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent ">Footer</div>
+                    </div>
+
+                    <div class="card  mb-3">
+                        <div class="card-header bg-transparent ">Header</div>
+                        <div class="card-body ">
+                            <h2 class="card-title">
+                                Entendendo Redux com ReactJS
+                            </h2>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                        </div>
+                        <div class="card-footer bg-transparent ">Footer</div>
+                    </div>
+
+                </section>
+
+
+                <aside class="aside2 col-3 ">
+                    <div class="card" >
+                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--lh_J2TaC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://forem.dev/remoteimages/uploads/articles/f7nihr3z8nacgyb8ptrn.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class="link-title" href="#">Forem for Android is here!</a>
+                        </div>
+                    </div>
+                    <ul class="list-group pt-3" >
+                        <li class="list-group-item p-3 d-flex justify-content-between">Listings <a class="link-title" href="#">See
+                                all</a></li>
+                        <li class="list-group-item">Get paid to talk about using Fauna
+                            <br>
+                            <p>Collabs</p>
+                        </li>
+                        <li class="list-group-item">Frontend developer ready for some summer works
+                            <p>forhire</p> 
+                        </li>
+                        <li class="list-group-item">Can Translate your posts from English to Spanish
+                            <p>forhire</p> 
+                        </li>
+                        <li class="list-group-item">For Hire Full Stack Dev
+                           <p>forhire</p> 
+                        </li>
+                        <li class="list-group-item"> Need an experienced Technical Writer?
+                           <p>forhire</p> 
+                        </li>
+                        <li class="list-group-item d-flex justify-content-center">Creating Listing </li>
+                       
+                    </ul>
+                    <ul class="list-group pt-3" >
+                        <li class="list-group-item"><a class="link-title" href="#">#Help</a></li>
+                        <li class="list-group-item">Azure/Dev/AI Journey and beyond! <br>
+                            <button class="notify">New</button>
+                        </li>
+                       
+                    </ul>
+                    <ul class="list-group pt-3" >
+                        <li class="list-group-item"><a class="link-title" href="#">#discusss</a></li>
+                        <li class="list-group-item">Q: As a #CodeNewbie, what are your learning goals for the next #30Days?
+                            <p>20 comments</p>
+                        </li>
+                        <li class="list-group-item">What's the difference between a library and a framework?
+                            <p>18 comments</p>
+                        </li>
+                        <li class="list-group-item">Composition api or Options api?
+                            <p>1 comment</p>
+                        </li>
+                        <li class="list-group-item">What was your mistakes in your career path?
+                            <p>33 comments</p>
+                        </li>
+                        <li class="list-group-item">What is your morning routine?
+                            <p>3 comments</p>
+                        </li>
+                    </ul>
+                    <ul class="list-group pt-3" >
+                        <li class="list-group-item"><a class="link-title" href="#">#explainlikeimfive</a></li>
+                        <li class="list-group-item">Explain Kubernetes to me like I'm Five
+                            <p>24 comments</p>
+                        </li>
+                        <li class="list-group-item">What's the difference between Front-end and Back-end development?
+                            <p>32 comments</p>
+                        </li>
+                        <li class="list-group-item">Explain React Hooks Like I'm Five
+                            <p>6 comments</p>
+                        </li>
+                        <li class="list-group-item">How to add code highlighting to your Dev.to posts.
+                            <p>33 comments</p>
+                        </li>
+                        <li class="list-group-item">Explain Docker Like I am Five
+                            <p>9 comments</p>
+                        </li>
+
+                        
+                    </ul>
+                    <ul class="list-group pt-3" >
+                        <li class="list-group-item d-flex justify-content-between"><a class="link-title" href="#">#challenge</a></li>
+                        <li class="list-group-item">The Kramer Method
+                            <p>1 comment</p>
+                        </li>
+                        <li class="list-group-item">SSTIC 2022 - Symposium sur la sécurité des technologies de l'information et des communications
+                            <button class="notify">New</button>
+                        </li>
+                        <li class="list-group-item">Python exercise 12: find the hidden ball <br>
+                            <button class="notify">New</button>
+                        </li>
+                        <li class="list-group-item">Making Software Engineering Interviews more Creative and Interesting <br>
+                            <button class="notify">New</button>
+                        </li>
+                        <li class="list-group-item">Day 4/30 Days of CodeWars: JavaScript Edition <br>
+                            <button class="notify">New</button>
+                        </li>
+                    </ul>
+
+                    <ul class="list-group pt-3" >
+                        <li class="list-group-item d-flex justify-content-between"><a class="link-title" href="#">#meta</a></li>
+                        <li class="list-group-item">A Second Walk Through of Composing a SQL Query
+                            <p>5 comment</p>
+                        </li>
+                        
+                    </ul>
+                    <ul class="list-group pt-3" >
+                        <li class="list-group-item d-flex justify-content-between"><a class="link-title" href="#">#watercooler</a></li>
+                        <li class="list-group-item">The Death of IE (webcomic)
+                            <p>32 comment</p>
+                        </li>
+                        <li class="list-group-item">About My Boss... <br>
+                            <button class="notify">New</button>
+                        </li>
+                        <li class="list-group-item">Day 4/30 Days of CodeWars: JavaScript Edition <br>
+                            <button class="notify">New</button>
+                        </li>
+                        <li class="list-group-item">Day 4/30 Days of CodeWars: JavaScript Edition <br>
+                            <button class="notify">New</button>
+                        </li>
+                        
+                        
+                    </ul>
+
+
+                    
+                </aside>
+
+
+            </div>
+        </main>
+    </div>
+
+    <footer class="container bg-danger">ESTE ES EL FOOTER</footer>
 
 
 
