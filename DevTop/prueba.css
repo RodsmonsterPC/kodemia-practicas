@@ -1,49 +1,3 @@
-* {
-  padding: 0%;
-  margin: 0%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-body {
-  width: auto;
-  height: auto;
-}
-
-header {
-  max-width: 100%;
-  height: 56px;
-}
-
-.aside1 {
-  padding-right: 10px;
-}
-
-.aside2 {
-  padding-left: 10px;
-}
-
-.link-title {
-  text-decoration: none;
-  color: black;
-}
-
-.link-top {
-  text-decoration: none;
-}
-
-.lipersonalizado:hover {
-  cursor: pointer;
-  color: #2f3ab2;
-}
-
-.notify {
-  border-radius: 20%;
-  background-color: orange;
-  border: 1px solid orange;
-}
-
-/* Aside Marco */
 body {
   background-color: #F5F5F5;
 }
@@ -172,4 +126,18 @@ body {
 .smallring {
   display: none;
 }
-/*# sourceMappingURL=index.css.map */
+
+.asidecount {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 30px;
+}
+/*# sourceMappingURL=prueba.css.map */
